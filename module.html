@@ -1,1 +1,23 @@
-<!-- HTML & HubL code goes here -->
+<div class="row {% if module.make_cards_equal_height%}card-deck{% endif %}">
+  <!-- BEGIN SPEAKER CARDS -->
+  {% for item in module.speaker_card_item %}
+
+    <div class="card speaker-card">
+      {% if item.speaker_bio_page %}
+	    <a href="{{ page_by_id(item.speaker_bio_page).absolute_url  }}">
+        {% endif %}
+        {% if item.speaker_headshot.src %}
+        <img class="card-img-top" src="{{ item.speaker_headshot.src }}" alt="{{ item.speaker_headshot.alt }}">
+        {% endif %}
+        <div class="card-header">
+          {% inline_rich_text field="speaker_name_and_title" value="{{ item.speaker_name_and_title }}" %}
+        </div>
+        <div class="card-body">
+          {% inline_rich_text field="speaker_card_body_content" value="{{ item.speaker_card_body_content }}" %}
+        </div>
+      {% if item.speaker_bio_page %}</a>{%endif%}
+    </div>
+  
+  {% endfor %}
+	<!-- / SPEAKER CARDS -->
+</div>

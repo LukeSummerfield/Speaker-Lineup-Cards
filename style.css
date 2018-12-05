@@ -1,1 +1,53 @@
-/* CSS code goes here */
+
+.card * {
+    transition: .15s ease-in-out;
+}
+
+ .speaker-card {
+  color: #000;
+   overflow:hidden;
+ }
+
+.card.speaker-card {
+  background:transparent;
+  border:none;
+}
+
+.speaker-card .card-header {
+    background: #392264;
+    color: #fff;  
+}
+
+.speaker-card .card-body {
+ background: #20113d; 
+  height:100%;
+}
+
+ .speaker-card h3 {
+  font-size: 1.25em;
+  margin: 0 0 .25em;
+ }
+ .speaker-card h4 {
+  font-size: 1em;
+  text-transform: none;
+  margin: 0;
+   font-weight: 400;
+ }
+ .speaker-card a {
+  height: 100%;
+  width: 100%;
+ }
+
+.speaker-card a:hover {
+ text-decoration: none; 
+}
+
+.speaker-card a p {
+ color: #fff; 
+}
+
+.speaker-card a:hover .card-header, .speaker-card a:hover .card-body {
+ background: #FF3366;
+  color: #fff;
+  
+}
