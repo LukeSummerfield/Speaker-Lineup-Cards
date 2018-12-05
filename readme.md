@@ -34,12 +34,12 @@ The Speaker Lineup Cards make use of [repeating fields](https://designers.hubspo
 * Speak Card Width (Number: Min 1 - Max 12)
 * Page Field (Page Selector)
 
-![Speaker Card Settings](https://raw.githubusercontent.com/ajlaporte/Speaker-Lineup-Cards/master/screenshots/speaker-card-settings.gif "Speaker Card Settings")
+![Speaker Card Settings](https://raw.githubusercontent.com/ajlaporte/Speaker-Lineup-Cards/master/screenshots/3-speaker-card-settings.gif "Speaker Card Settings")
 
 ## Additional Screen Shots
 
 Front Side View
-![Speaker Row Cards ](https://raw.githubusercontent.com/ajlaporte/Speaker-Lineup-Cards/master/screenshots/speaker-row-cards.jpg "Speaker Row Cards")
+![Speaker Row Cards ](https://raw.githubusercontent.com/ajlaporte/Speaker-Lineup-Cards/master/screenshots/2-speaker-row-cards.jpg "Speaker Row Cards")
 
 DMv2 View
-![DMv2 View ](https://raw.githubusercontent.com/ajlaporte/Speaker-Lineup-Cards/master/screenshots/behind-the-scenes.jpg "DMv2 View")
+![DMv2 View ](https://raw.githubusercontent.com/ajlaporte/Speaker-Lineup-Cards/master/screenshots/1-behind-the-scenes.jpg "DMv2 View")
